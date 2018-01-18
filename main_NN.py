@@ -43,7 +43,7 @@ tf_y = tf.placeholder(tf.float32, [None, 1])
 
 # Define the networks
 layer1 = tf.layers.dense(tf_X, 20,activation=tf.nn.relu)
-pred = tf.layers.dense(layer1, 1, activation=tf.nn.softmax)
+pred = tf.layers.dense(layer1, 1)
 
 # Define the Loss function ==> MSE
 loss_func = tf.reduce_mean(tf.square(tf_y-pred))
