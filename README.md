@@ -13,6 +13,6 @@ Using Mathod :
   Machine Learning, using Scikit-Learn package http://scikit-learn.org/stable/
   
   Neural Network, using google tensorflow package https://www.tensorflow.org/
-
-
+  
+environment : Anaconda, python 3.6
 
